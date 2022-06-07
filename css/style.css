@@ -10,6 +10,10 @@ p{
     font-size: 20px;
 }
 
+.tit{
+transform: skewY(-20deg);
+}
+
 
 h2{
     color: yellow;
@@ -33,7 +37,7 @@ footer{
 
 
 .navbar{
-    background-color: yellow;
+    background-image:linear-gradient(to top, black,yellow);
     color: black;
     margin:2px;
     display: flex;
@@ -113,7 +117,7 @@ a{
 
 
 
- @media  screen and (max-width:576px){
+ @media  screen and (max-width:630px){
      .pic{
          width: 400px;
          height: 300px;
@@ -144,5 +148,10 @@ a{
          justify-content: center;
          font-size: 10px;
      }
+     .navini{
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+    }
      
  }
