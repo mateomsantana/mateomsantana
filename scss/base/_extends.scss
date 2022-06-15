@@ -1,0 +1,8 @@
+%tit-ext{
+    color: yellow;
+    font-family:'Bebas Neue';
+    font-size: 40px;
+}
+.tit{
+    @extend %tit-ext;
+}

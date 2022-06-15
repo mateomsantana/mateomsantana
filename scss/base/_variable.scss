@@ -1,0 +1,13 @@
+//mapa
+
+$estilo:(
+    color:yellow,
+    centro:center,
+    tfuente:25px,
+);
+
+.texnos{
+    text-align: map-get($estilo,centro);
+    color : map-get($estilo,color);
+    font-size: map-get($estilo,tfuente);
+}

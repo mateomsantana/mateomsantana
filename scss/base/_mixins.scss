@@ -1,0 +1,11 @@
+@mixin flexbox($flex) {
+    display: $flex;
+}
+
+footer{
+    @include flexbox(flex)
+}
+
+.navbar{
+    @include flexbox(flex)
+}
