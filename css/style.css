@@ -170,6 +170,16 @@ a {
     margin: 50px 100px;
     font-size: 20px;
   }
+
+  .footpic{
+    width: 27px;
+    height: 27px;
+  }
+
+  .hastag{
+    font-size: 18px;
+  }
+
   iframe {
     width: 400px;
     height: 300px;
